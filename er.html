@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Fire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease;
+    }
+
+    h1 {
+      margin-top: 0;
+      text-align: center;
+      color: #ee5a6f;
+    }
+
+    .to {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .message {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+      white-space: pre-line;
+    }
+
+    .from {
+      margin-top: 30px;
+      text-align: right;
+      font-weight: 600;
+      color: #ee5a6f;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      cursor: pointer;
+    }
+
+    .overlay-text {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      animation: pulse 1.5s infinite;
+    }
+
+    .overlay-text h2 {
+      margin: 0 0 10px;
+      color: #ee5a6f;
+    }
+
+    .overlay-text p {
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  
+  <audio id="bgMusic" loop preload="auto">
+    <source src="Bruno Major - Nothing (Lyric & Chord Video) - Bruno Major (1).mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+  <div class="card" onclick="playMusic()">
+    <h1>Click here to see what!!???</h1>
+    <div class="to">For: <strong>N</strong></div>
+
+    <div class="message">
+haiii
+aku cuma mau ngasi aja gada niatan apapun selain kamu terima dengan baik,,, sama cuma mau ngasi tau aja besok hari senin awgawg,,,,,,, jassskidding girl, mau ngucapin terimakasih aja si aku…
+
+Terimakasih,
+semesta melahirkan sosok yang begitu indah untuk di temui, semesta dengan berbagai rencananya, mempertemukan kita sekarang. Entah reaksi energi apa yang sedang terjadi, but I’m so in love with you. Maaf ya kamu harus bertemu sosok yang situasinya belum baik. Semoga yang tumbuh dengan sederhana bisa mekar dengan sangat meriah.
+
+BUTTTT……….
+I still have a chance kan????, maksudku kamu sekarang jauhhh bangett yaaaa????, atau aku aja yang ngerasa kita ini dekettt????…..haha aku pengen tau dari segi pandangmu, gimana aku menurutmu???, kalo boleh tau apa yang kamu pengen udahin di aku???,,, enggasi kalo ini kayanya aku harus banget tauu, tapi kamu denial bangettt absloutly denial, apa kamu orangnya emang gitu yah?, jadi dilarang denial dulu deh, luwh denial begitu yang ngajarin siapa si???, f denial n talk to me, maaf ya kayanya belum ada kesempatan ketemu, jadi aku kirim aja, sebenernya mau beli langsun sama orangnya nya, gapapa aku percaya stigma "sekarang ato gaakan pernah" itu.
+
+Sudah itu aja sih, enjoy ur sunday with menangisi akhir pekan jangan lupa😁, n enjoy ma small shittt, maaf kalo masi banyak tapi nya, tapi sejak kenal kamu aku jadi lebih sering ngungkapin isi kepalaku entah dimana itu tapi kamu bener bener jadi The reason fo me buat terus maju anjaiii,,, ini nambahin stiker nya gimana si.9
+    </div>
+
+    <div class="from">—ER 1 Jan 2025</div>
+    <footer>Sorry for sending this, and Thank u for reading this
+    <br>
+    <br>
+    <br>
+    <br>
+    lvvv u and i miss u so baddd:)
+    <br>
+    <br>
+    </footer>
+  </div>
+  <script>
+    function playMusic() {
+      const music = document.getElementById('bgMusic');
+      if (music.paused) {
+        music.play();
+      }
+    }
+
+    function playMusic() {
+      const music = document.getElementById('bgMusic');
+      if (music.paused) {
+        music.play();
+      }
+    }, 300);
+      playMusic();
+    }
+    }
+  </script>
+</body>
+</html>
